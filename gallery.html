@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+<header>
+    <nav>
+     <ul class="menu">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+            </ul>
+        </nav>
+    </header>
+        <style>
+            header{
+            height: 10vh;
+            width: 100%;
+            border-color: black;
+            background-position: auto;
+
+        }
+
+        ::selection {
+            background-color: rgb(255, 208, 196);
+
+        }
+
+        header nav {
+            position: fixed;
+            width: 100%;
+            left: 0;
+            top: 0;
+            background-color: rgb(228, 117, 61);
+            z-index: 100;
+        }
+
+        nav .menu {
+            display: flex;
+        }
+
+        nav .menu li {
+            list-style: none;
+            margin: 0 10px;
+        }
+
+        nav .menu a {
+            color: rgb(255, 187, 0);
+            font-size: 17px;
+            font-weight: 500;
+            text-decoration: double;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+
+        html {
+            box-sizing: border-box;
+        }
+
+        *,
+        *:before,
+        *:after {
+            box-sizing: inherit;
+        }
+
+        .column {
+            float: left;
+            width: 33.3%;
+            margin-bottom: 16px;
+            padding: 0 8px;
+        }
+
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            margin: 8px;
+        }
+
+        .about-section {
+            padding: 50px;
+            text-align: center;
+            background-color: #b0d26d;
+            color: rgb(9, 9, 9);
+        }
+
+        .container {
+            padding: 0 16px;
+        }
+
+        .container::after,
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        .title {
+            color: rgb(136, 185, 14);
+        }
+
+        .button {
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 8px;
+            color: rgb(255, 255, 255);
+            background-color: #6e9b15;
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        .button:hover {
+            background-color: #101010;
+        }
+
+        @media screen and (max-width: 650px) {
+            .column {
+                width: 100%;
+                display: block;
+            }
+        }
+
+
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="gallery">
+  <a target="_blank" href="food1jpeg.jpg">
+    <img src="food1jpeg.jpg" alt="soup" width="600" height="400">
+  </a>
+  <div class="desc">Afang soup is very healthy and it goes with any kinds of solid.</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="food2jpeg.webp">
+    <img src="food2jpeg.webp" alt="jollofrice" width="600" height="400">
+  </a>
+  <div class="desc">Our yummy jollof rice is freshly prepared in homemade way.</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="food3jpeg.jpg">
+    <img src="food3jpeg.jpg" alt="yamporridge" width="700" height="700">
+  </a>
+  <div class="desc">yam porridge</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="food4jpeg.jpg">
+    <img src="food4jpeg.jpg" alt="amala" width="700" height="500">
+  </a>
+  <div class="desc">Our Amala is traditional and very light.</div>
+</div>
+
+<div class="gallery">
+    <a target="_blank" href="food5jpeg.jpg">
+        <img src="food5jpeg.jpg" alt="friedrice" width="700" height="700">
+        </a>
+        <div class="desc">Fried rice special</div>
+        </div>
+
+     <div class="gallery">
+          <a target="_blank" href="tutulizerfoodjpeg.png">
+          <img src="tutulizerfoodjpeg.png" alt="jollofrice" width="700" height="700">
+          </a>
+          <div class="desc">specialrice</div>
+          </div>
+
+</div>
+
+</body>
+</html>
+
+

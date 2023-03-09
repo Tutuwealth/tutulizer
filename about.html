@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+
+
+
+    <title>Tutulizer about page</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+            </ul>
+        </nav>
+    </header>
+    <style>
+        header {
+            height: 10vh;
+            width: 100%;
+            border-color: black;
+            background-position: auto;
+
+        }
+
+        ::selection {
+            background-color: bisque;
+
+        }
+
+        header nav {
+            position: fixed;
+            width: 100%;
+            left: 0;
+            top: 0;
+            background-color: rgb(245, 130, 30);
+            z-index: 100;
+        }
+
+        nav .menu {
+            display: flex;
+        }
+
+        nav .menu li {
+            list-style: none;
+            margin: 0 10px;
+        }
+
+        nav .menu a {
+            color: rgb(130, 29, 6);
+            font-size: 17px;
+            font-weight: 500;
+            text-decoration: double;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+
+        html {
+            box-sizing: border-box;
+        }
+
+        *,
+        *:before,
+        *:after {
+            box-sizing: inherit;
+        }
+
+        .column {
+            float: left;
+            width: 33.3%;
+            margin-bottom: 16px;
+            padding: 0 8px;
+        }
+
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            margin: 8px;
+        }
+
+        .about-section {
+            padding: 50px;
+            text-align: center;
+            background-color: #e29338;
+            color: rgb(9, 9, 9);
+        }
+
+        .container {
+            padding: 0 16px;
+        }
+
+        .container::after,
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        .title {
+            color: rgb(222, 167, 50);
+        }
+
+        .button {
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 8px;
+            color: rgb(255, 255, 255);
+            background-color: #d37817;
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        .button:hover {
+            background-color: #101010;
+        }
+
+        @media screen and (max-width: 650px) {
+            .column {
+                width: 100%;
+                display: block;
+            }
+        }
+
+
+        </style>
+
+
+</head>
+<body>
+
+<div class="about-section">
+  <h1>About Us</h1>
+  <h1>TUTULIZERS KITCHEN</h1>
+  <p>Tutulizers Kitchen is a committed supporter of African foods and of which to serve customers with different African yummy meals is our desire.Tutulizer Kitchen is launched for our customers to experience more as they interact with our brand and enjoy our delicious varieties of African dishes.Our vision has been to be the most loved quick African dishes brand in the UK and to offer the best customer service.</p>
+  <p>Do you know the foods you choose to eat can have a direct impact on your ability to enjoy life to its fullest YES! thats why you need to make Tutulizers kitchen your food vendor today.</p>
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="tutulizer.jfif" alt="tutu" style="width:100%">
+      <div class="container">
+        <h2>Tutuola Dada</h2>
+        <p class="title">CEO & Founder</p>
+        <p>Tutuola O dada is the ceo and founder of Tutulizers kitchen.</p>
+        <p>tutuoladada@yahoo.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="seundadajpeg.jfif" alt="seun" style="width:100%">
+      <div class="container">
+        <h2>Oluwaseun Dada</h2>
+        <p class="title">Associate Director</p>
+        <p>Oluwaseun Dada is an Associate Director of Tutulizers Kichen.Oluwaseun has passion.</p>
+        <p>seun_4@yahoo.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="mummyjpeg.jfif" alt="mum" style="width:100%">
+      <div class="container">
+        <h2>Febishola Oduola</h2>
+        <p class="title">Managing director</p>
+        <p>Febishola Oduola is the managing director of Tutulizers kitchen.</p>
+        <p>febisholaodus@yahoo.co.uk</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+<footer>
+    <div class="copy">
+        <div class="container">
+            <a href="tutulizer@gmail.com">2023 &copy; ALL RIGHTS RESERVED |DESIGNED BY TUTUTECH</a>
+            <span>
+                <div class="media-icons">
+                    <a href="https://google.com"class="fab fa-google-plus-g"></a>
+                    <a href="https://twitter.com"class="fab fa-twitter"></a>
+                    <a href="https://instagram.com/tu_wealth?igshid=YmMyMTA2M2Y="class="fab fa-instagram"></a>
+                    
+                </div>
+            </span>
+        </div>
+</footer>
+</html>
