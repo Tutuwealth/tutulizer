@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+<link rel="stylesheet" href="style.css">
 
+    <title>Tutulizer about page</title>
+</head>
 
-<header>
-    <nav>
-     <ul class="menu">
+<body>
+    <header>
+        <nav>
+            <ul class="menu">
                 <li><a href="index.html">HOME</a></li>
                 <li><a href="about.html">ABOUT</a></li>
                 <li><a href="contact.html">CONTACT</a></li>
@@ -13,203 +19,103 @@
             </ul>
         </nav>
     </header>
-        <style>
-            header{
-            height: 10vh;
-            width: 100%;
-            border-color: black;
-            background-position: auto;
-
-        }
-
-        ::selection {
-            background-color: rgb(255, 208, 196);
-
-        }
-
-        header nav {
-            position: fixed;
-            width: 100%;
-            left: 0;
-            top: 0;
-            background-color: rgb(228, 117, 61);
-            z-index: 100;
-        }
-
-        nav .menu {
-            display: flex;
-        }
-
-        nav .menu li {
-            list-style: none;
-            margin: 0 10px;
-        }
-
-        nav .menu a {
-            color: rgb(255, 187, 0);
-            font-size: 17px;
-            font-weight: 500;
-            text-decoration: double;
-        }
-
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-            margin: 0;
-        }
-
-        html {
-            box-sizing: border-box;
-        }
-
-        *,
-        *:before,
-        *:after {
-            box-sizing: inherit;
-        }
-
-        .column {
-            float: left;
-            width: 33.3%;
-            margin-bottom: 16px;
-            padding: 0 8px;
-        }
-
-        .card {
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-            margin: 8px;
-        }
-
-        .about-section {
-            padding: 50px;
-            text-align: center;
-            background-color: #b0d26d;
-            color: rgb(9, 9, 9);
-        }
-
-        .container {
-            padding: 0 16px;
-        }
-
-        .container::after,
-        .row::after {
-            content: "";
-            clear: both;
-            display: table;
-        }
-
-        .title {
-            color: rgb(136, 185, 14);
-        }
-
-        .button {
-            border: none;
-            outline: 0;
-            display: inline-block;
-            padding: 8px;
-            color: rgb(255, 255, 255);
-            background-color: #6e9b15;
-            text-align: center;
-            cursor: pointer;
-            width: 100%;
-        }
-
-        .button:hover {
-            background-color: #101010;
-        }
-
-        @media screen and (max-width: 650px) {
-            .column {
-                width: 100%;
-                display: block;
-            }
-        }
+ 
+     
+ 
+ 
 
 
 
-div.gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 180px;
-}
-
-div.gallery:hover {
-  border: 1px solid #777;
-}
-
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
-
-div.desc {
-  padding: 15px;
-  text-align: center;
-}
-</style>
-</head>
-<body>
-
-<div class="gallery">
-  <a target="_blank" href="food1jpeg.jpg">
-    <img src="food1jpeg.jpg" alt="soup" width="600" height="400">
-  </a>
-  <div class="desc">Afang soup is very healthy and it goes with any kinds of solid.</div>
+    <h1>TUTULIZERS KITCHEN</h1> 
+<div class="container-gallery">
+	<div class="top">
+    	<ul>
+        	<li><a href="#img_1"><img src="Images/food1jpeg.jpg"></a></li>
+            <li><a href="#img_2"><img src="Images/food2jpeg.webp"></a></li>
+            <li><a href="#img_3"><img src="Images/food3jpeg.jpg"></a></li>
+            <li><a href="#img_4"><img src="Images/food4jpeg.jpg"></a></li>
+            <li><a href="#img_5"><img src="Images/food5jpeg.jpg"></a></li>
+            <li><a href="#img_6"><img src="Images/bolisnailjpeg.jfif"></a></li>
+            <li><a href="#img_7"><img src="Images/igbinjpeg.jfif"></a></li>
+            <li><a href="#img_8"><img src="Images/Image6jpeg.webp"></a></li>
+            <li><a href="#img_9"><img src="Images/image7jpeg.jpg"></a></li>
+            <li><a href="#img_10"><img src="Images/jollofricejpeg.jfif"></a></li>
+            <li><a href="#img_11"><img src="Images/image8jpeg.jpg"></a></li>
+            <li><a href="#img_12"><img src="Images/image9jpeg.webp"></a></li>
+            <li><a href="#img_13"><img src="Images/image10jpeg.jpg"></a></li>
+            <li><a href="#img_14"><img src="Images/image11jpeg.jpg"></a></li>
+            <li><a href="#img_15"><img src="Images/image12jpeg.jpg"></a></li>
+            <li><a href="#img_16"><img src="Images/image13jpeg.jfif"></a></li>
+        </ul>
+        <a href="#_1" class="lightbox trans" id="img_1"><img src="Images/food1jpeg.jpg"></a>
+        <a href="#_2" class="lightbox trans" id="img_2"><img src="Images/food2jpeg.webp"></a>
+        <a href="#_3" class="lightbox trans" id="img_3"><img src="Images/food3jpeg.jpg"></a>
+        <a href="#_4" class="lightbox trans" id="img_4"><img src="Images/food4jpeg.jpg"></a>
+        <a href="#_5" class="lightbox trans" id="img_5"><img src="Images/food5jpeg.jpg"></a>
+        <a href="#_6" class="lightbox trans" id="img_6"><img src="Images/bolisnailjpeg.jfif"></a>
+        <a href="#_7" class="lightbox trans" id="img_7"><img src="Images/igbinjpeg.jfif"></a>
+        <a href="#_8" class="lightbox trans" id="img_8"><img src="Images/Image6jpeg.webp"></a>
+        <a href="#_9" class="lightbox trans" id="img_9"><img src="Images/image7jpeg.jpg"></a>
+        <a href="#_10" class="lightbox trans" id="img_10"><img src="Images/jollofricejpeg.jfif"></a>
+        <a href="#_11" class="lightbox trans" id="img_11"><img src="Images/image8jpeg.jpg"></a>
+        <a href="#_12" class="lightbox trans" id="img_12"><img src="Images/image9jpeg.webp"></a>
+        <a href="#_13" class="lightbox trans" id="img_13"><img src="Images/image10jpeg.jpg"></a>
+        <a href="#_14" class="lightbox trans" id="img_14"><img src="Images/image11jpeg.jpg"></a>
+        <a href="#_15" class="lightbox trans" id="img_15"><img src="Images/image12jpeg.jpg"></a>
+        <a href="#_16" class="lightbox trans" id="img_16"><img src="Images/image13jpeg.jfif"></a>
+    </div>
 </div>
+  
 
-<div class="gallery">
-  <a target="_blank" href="food2jpeg.webp">
-    <img src="food2jpeg.webp" alt="jollofrice" width="600" height="400">
-  </a>
-  <div class="desc">Our yummy jollof rice is freshly prepared in homemade way.</div>
-</div>
+ 
 
-<div class="gallery">
-  <a target="_blank" href="food3jpeg.jpg">
-    <img src="food3jpeg.jpg" alt="yamporridge" width="700" height="700">
-  </a>
-  <div class="desc">yam porridge</div>
-</div>
+    
+    
 
-<div class="gallery">
-  <a target="_blank" href="food4jpeg.jpg">
-    <img src="food4jpeg.jpg" alt="amala" width="700" height="500">
-  </a>
-  <div class="desc">Our Amala is traditional and very light.</div>
-</div>
 
-<div class="gallery">
-    <a target="_blank" href="food5jpeg.jpg">
-        <img src="food5jpeg.jpg" alt="friedrice" width="700" height="700">
-        </a>
-        <div class="desc">Fried rice special</div>
-        </div>
 
-     <div class="gallery">
-          <a target="_blank" href="tutulizerfoodjpeg.png">
-          <img src="tutulizerfoodjpeg.png" alt="jollofrice" width="700" height="700">
-          </a>
-          <div class="desc">specialrice</div>
+
+ <!--  ************************* Footer Start Here ************************** --> 
+   
+ <footer class="footer">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-4 col-sm-12">
+              <h2>Our Mission</h2>
+              <p>
+                
+
+                 We at tutulizers kitchen we strive to make our customers experience a memorable one at every step.
+              </p>
+              <p>We focus on tasty experiences that promise to reduce costs,Backed by quality customer service... </p>
           </div>
+          
+          <div class="col-md-4 col-sm-12 map-img">
+              <h2>Contact Us</h2>
+              
+                <p>Author:TUTUTECH<br>
+                  <p>All Rights Reserved 2022 code the future</p>
+                <a href="gmail">tutulizerskitchen@gmail.com</a></p>
+              
 
-          <div class="gallery">
-            <a target="_blank" href="bolisnailjpeg.jfif">
-            <img src="bolisnailjpeg.jfif" alt="plantain" width="700" height="700">
-            </a>
-            <div class="desc">Grilledplantain with spicy snail</div>
-            </div>
+          </div>
+      </div>
+  </div>
+  
 
-            <div class="gallery">
-                <a target="_blank" href="igbinjpeg.jfif">
-                <img src="igbinjpeg.jfif" alt="snail" width="700" height="700">
-                </a>
-                <div class="desc">peppersnail</div>
-                </div>
+</footer>
+<div class="copy">
+      <div class="container">
+          <a href="https://www.tutulizerskitchen.com">2022 &copy; All Rights Reserved | Designed and Developed by TUTUTECH</a>
+          
+          <span>
 
-
-</div>
-
-</body>
+         <div class="media-icons">
+          <a><i class="fab fa-google-plus-g"></i></a>
+          <a><i class="fab fa-twitter"></i></a>
+          <a><i class="fab fa-instagram"></i></a>
+          
+  </span>
+      </div>
+</body> 
 </html>
-
-
