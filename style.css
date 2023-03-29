@@ -7,91 +7,14 @@
   box-sizing: border-box;
   font-family: 'Poppins',sans-serif;
 }*/
-/*homepage slider*/
-/*.banner1, .banner2, .banner3, .banner4{
-  height: 50vh;
-  width: 100%;
-  position: absolute;
-  left: 0;
-  top: 0;
-}
-img {
-  width: 50%;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  /*animation: zoom-out 3s linear infinite;*/
 
- /* @keyframes zoom-out {
-    40%{width: %}
-
-  }*/ 
-  /*
-  .text-box{
-    width: 500px;
-    position:absolute;
-    top:200px;
-    left:100px;
-    color: #fff;
-    
-  }
-  .text-box h1 {
-    margin-bottom: 40px;
-  }
-
-.banner1{
-  animation: slide1 12s linear infinite;
-
-}
-.banner2{
-  animation: slide2 12s linear infinite;
-
-}
-.banner3{
-  animation: slide3 12s linear infinite;
-
-}
-.banner4{
-  animation: slide4 12s linear infinite;
-
-}
-@keyframes slide1{
-  0%{visibility: visible;}
-  25%{visibility: hidden;}
-  50%{visibility: hidden;}
-  75%{visibility: hidden;}
-  100%{visibility: visible;}
-}
-@keyframes slide2{
-  0%{visibility: hidden;}
-  25%{visibility: hidden;}
-  50%{visibility: visible;}
-  75%{visibility: hidden;}
-  100%{visibility: hidden;}
-}
-
-@keyframes slide3{
-  0%{visibility: hidden;}
-  25%{visibility: hidden;}
-  50%{visibility: hidden;}
-  75%{visibility: visible;}
-  100%{visibility: hidden;}
-}
-@keyframes slide4{
-  0%{visibility: hidden;}
-  25%{visibility: hidden;}
-  50%{visibility: hidden;}
-  75%{visibility: hidden;}
-  100%{visibility: visible;}
-}*/
 
 header{
   height: 50vh;
   width: 100%;
   background: url("images/faded-gray-wooden-textured-flooring-background_53876-110739.jpg") no-repeat;
   background-position: auto;
-}
+}/*
 ::selection{
   background: #3914b4;
 }
@@ -167,29 +90,8 @@ header .text-content .job{
   border-right: 4px solid #03f997;
   animation: typing 10s steps(40) infinite;
 }
-@keyframes typing{
-  0%{
-    width: 0ch;
-  }
-  50%{
-    width: 15ch;
-  }
-  100%{
-    width: 0ch;
-  }
-}
-.info{
-  color: #090908;
-  font-size: 50px;
-  margin: 5px 0;
-  margin-top: -4px;
-  display: flex;
-  font-style: italic;
-  font-weight: 200;
-}
-.text-content .job .one{
-  color: #624e05;
-}
+
+
 
 .buttons{
   margin: 20px 0 0 50px;
